@@ -1,0 +1,310 @@
+/* Put your CSS here */
+
+
+
+.ember-application {
+    margin: 0;
+}
+
+body {
+  font-family: 'Raleway', Arial, sans-serif !important;
+  font-weight: 400;
+	font-size: 1em;
+  color: #373B44;
+  margin: 0;
+}
+
+
+h1, h2, h3 {
+  line-height: 1;
+  font-weight: 800;
+  }
+
+p {
+  font-size: 16px;
+  text-align: center;
+}
+
+a {
+  color: #354856;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #73C8A9;
+}
+
+
+li {
+  list-style-type: none;
+  display: inline-block;
+}
+
+.clearfix {
+  display: block;
+  clear: both;
+}
+
+.clearfix li {
+  display: block;
+}
+
+.clearfix h4 {
+  font-weight: 700;
+}
+
+.logo {
+  width: 100px;
+  height: 100px;
+  margin-top: -15px;
+  margin-left: 10px;
+}
+
+
+article {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  font-size: 14px;
+  padding: 0;
+  color: #354856;
+  text-align: center;
+}
+
+header {
+  color: #fff;
+  background: transparent;
+}
+
+
+#wrapper {
+  background: url('../styleguide/happy-1.jpg') no-repeat center center fixed;
+  backround-color: #73C8A9;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  margin: 0;
+  padding: 0;
+}
+
+#wrapper .container-fluid {
+  padding: 0;
+  margin: 0;
+}
+
+#wrapper h2 {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 800;
+}
+
+#homeback {
+  background: rgba(0, 0, 17, 0.5);
+  padding-left: 1.4em;
+  padding-top: 0.5em;
+  padding-bottom: 1em;
+  padding-right: 0em;
+}
+
+#home-text {
+  margin-top: 4em;
+  font-size: 16px;
+  line-height: 1.8em;
+  color: #fff;
+  text-align: left;
+}
+
+.resources {
+  margin-top: 25px;
+
+}
+
+.resources li {
+  display: block;
+
+}
+
+.detail {
+  width: 100%;
+  height: auto;
+}
+
+.navbar-default.main-nav {
+  background: #73C8A9;
+  border: none !important;
+  height: 100px;
+}
+
+button.navbar-toggle.custom-menu {
+  border-style: solid;
+  border-width: 3px;
+  border-color: #fff;
+  background-color: none;
+}
+button.navbar-toggle.custom-menu:hover,
+button.navbar-toggle.custom-menu:focus {
+  background-color: white;
+}
+
+.navbar-toggle a:hover,
+.navbar-toggle a:focus {
+  background-color: transparent;
+  background-image: none;
+  color: #73C8A9;
+}
+
+.navbar-default .navbar-toggle .icon-bar {
+  background-color: #fff;
+}
+.navbar-default .navbar-toggle:hover .icon-bar,
+.navbar-default .navbar-toggle:focus .icon-bar {
+  background-color: #73C8A9;
+}
+
+.navbar-header {
+  color:  rgba(0, 0, 0, 0.6);
+}
+
+
+.navbar-nav li {
+  display: inline-block;
+}
+
+.navbar-nav>li>a:hover {
+  color:#fff;
+}
+
+.collapse.in {
+  background: transparent !important;
+}
+
+.navbar-collapse {
+  margin-top: 13px;
+}
+
+.navbar-inverse .navbar-nav>.active>a,
+.navbar-inverse .navbar-nav>.active>a:hover,
+.navbar-inverse .navbar-nav>.active>a:focus .spacer {
+  background-color: transparent !important;
+  display: inline-block;
+}
+
+#startchange {
+  margin: 0;
+  padding: 0;
+}
+
+#content {
+  margin: 0;
+  padding-bottom: 0;
+}
+
+.center {
+  text-align: center;
+}
+
+.spacer {
+  height: 100px;
+  padding: 0;
+  margin: 0;
+}
+
+.spacer-sm {
+  height: 2em;
+}
+
+.bg-cover {
+  background: #354856;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  height: 2000px;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.responsive-nav li {
+  display: block;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  color: white;
+  text-align: center;
+}
+
+.fa-ul li {
+  display: block;
+}
+
+.form-control {
+  padding: 3px 0px 3px 3px;
+  margin: 5px 1px 3px 0px;
+}
+
+.form-control.error:focus {
+  padding: 3px 0px 3px 3px;
+  margin: 5px 1px 3px 0px;
+  border: 1px solid rgba(215, 44, 44, 0.9);
+}
+
+footer {
+  background: #354856;
+  color: #fff;
+  margin: 0;
+}
+
+footer > .container-fluid {
+padding-right: 15px;
+padding-left: 15px;
+}
+
+#footer-text {
+  position: relative;
+  margin-top: 10px;
+  text-align: left;
+  font-size: 12px;
+}
+
+#footer-text li {
+  margin-left: 20px;
+}
+
+#footer-text a {
+  color: #fff;
+  text-decoration: none;
+}
+
+#footer-text a:hover {
+  color: #73C8A9;
+}
+
+
+@media only screen
+and (max-device-width : 480px) {
+
+  #wrapper {
+    background: url('../styleguide/happy.jpg') no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+  }
+
+  .mobile {
+    display: inline-block;
+    float: left;
+  }
+
+  .shrink-mobile {
+    font-size: 9px;
+  }
+
+  .btn-danger {
+    font-size: 9px;
+  }
+
+}
