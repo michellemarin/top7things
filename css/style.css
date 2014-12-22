@@ -34,8 +34,12 @@ a:hover {
   color: #73C8A9;
 }
 
+ol li {
+  list-style-type: number;
+}
 
-li {
+
+ul li {
   list-style-type: none;
   display: inline-block;
 }

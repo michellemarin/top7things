@@ -8,7 +8,7 @@ App.ReviewThingsController = Ember.ArrayController.extend({
       thing.incrementProperty('rank');
       thing.save();
       console.log(thing.get('rank'));
-      if (thing.get('rank') > 50) {
+      if (thing.get('rank') > 12) {
       this.transitionToRoute('results');
     } else {
       this.send('shuffle');
