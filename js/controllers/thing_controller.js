@@ -1,6 +1,6 @@
 App.ThingController = Ember.ObjectController.extend({
   needs: ['application'],
-  isLoggedIn: Ember.computed.alias('controllers.application.isLoggedIn'),
+  
 
   categoryName: function () {
     var self = this;

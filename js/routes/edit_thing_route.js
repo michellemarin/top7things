@@ -1,4 +1,4 @@
-App.EditThingRoute = App.AuthenticationRoute.extend({
+App.EditThingRoute = Ember.Route.extend({
   model: function (params) {
     return this.store.find('thing' , params.id);
   }

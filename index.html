@@ -39,12 +39,8 @@
                 <li><div class="spacer"></div></li>
                 <li><a href="#/" data-hover="Home" {{action 'toggleMenu' 'index'}}><i class="fa fa-home"></i>&nbsp;Home</a></li>
                 <li><a href="#/review" data-hover="Vote" {{action 'toggleMenu' 'review_things'}}><i class="fa fa-check-square-o"></i>&nbsp;Vote</a></li>
-              {{#if isLoggedIn}}
+
                 <li><a href="#/results" data-hover="Results" {{action 'toggleMenu' 'results'}}><i class="fa fa-thumb-tack"></i>&nbsp;Results</a></li>
-                <li><a href="" {{action "logout"}} data-hover="Logout"><i class="fa fa-unlock"></i>&nbsp;Logout</a></li>
-              {{else}}
-                <li><a href="#/login" data-hover="Login" {{action 'toggleMenu' 'login'}}><i class="fa fa-unlock-alt"></i>&nbsp;Login</a></li>
-              {{/if}}
               </ul>
             </nav>
           </section>
@@ -57,12 +53,9 @@
                 <nav class="cl-effect-8">
                   <li><a href="#/" data-hover="Home"><i class="fa fa-home"></i>&nbsp; Home</a></li>
                   <li><a href="#/review" data-hover="Vote"><i class="fa fa-check-square-o"></i>&nbsp;Vote</a></li>
-                {{#if isLoggedIn}}
+
                   <li><a href="#/results" data-hover="Results"}}><i class="fa fa-thumb-tack"></i>&nbsp;Results</a></li>
-                  <li><a href="" {{action "logout"}} data-hover="Logout"><i class="fa fa-unlock"></i>&nbsp;Logout</a></li>
-                {{else}}
-                  <li><a href="#/login" data-hover="Login"><i class="fa fa-unlock-alt"></i>&nbsp;Login</a></li>
-                {{/if}}
+
                 </nav>
               </section>
             </ul>
@@ -154,9 +147,9 @@
           <figcaption class="tint">
             <h2> {{title}} </h2>
             <h6> {{categoryName}} </h6>
-            {{#if isLoggedIn}}
+
               {{yield}}
-            {{/if}}
+
             {{outlet}}
             </figcaption>
           </figure>
@@ -302,7 +295,7 @@
           better is always welcome. Or if you just want to say hi that's great too!
           </p>
           <h4>Send emails to:</h4>
-          <p>michelle.a.marin@gmail.com</p>
+          <p>MichelleAlyceMarin@gmail.com</p>
         </div>
         <div class="col-md-3"></div>
       </div>

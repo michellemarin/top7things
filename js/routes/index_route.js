@@ -1,4 +1,4 @@
-App.IndexRoute = App.ApplicationRoute.extend({
+App.IndexRoute = Ember.Route.extend({
   model: function () {
     return 'hello!';
   }

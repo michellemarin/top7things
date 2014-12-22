@@ -1,4 +1,4 @@
-App.EditCategoryRoute = App.AuthenticationRoute.extend({
+App.EditCategoryRoute = Ember.Route.extend({
   model: function (params) {
     return this.store.find('category' , params.id);
   }

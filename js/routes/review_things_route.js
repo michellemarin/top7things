@@ -1,4 +1,4 @@
-App.ReviewThingsRoute = App.ApplicationRoute.extend({
+App.ReviewThingsRoute = Ember.Route.extend({
   model: function () {
     return this.store.find('thing').then(function (data) {
       var ran = Math.floor( Math.random() * data.get('length') - 2 ) + 1

@@ -2,16 +2,16 @@ App = Ember.Application.create({
   LOG_TRANSITIONS: true
 });
 
-App.Firebase = new Firebase('https://topseven.firebaseio.com/');
+//*App.Firebase = new Firebase('https://topseven.firebaseio.com/');
 
-App.ApplicationAdapter = DS.FirebaseAdapter.extend({
+/*App.ApplicationAdapter = DS.FirebaseAdapter.extend({
   firebase: App.Firebase
 });
-
+*/
 //
-// App.ApplicationAdapter = DS.LSAdapter.extend({
-//   namespace: 'mytop7-emberjs'
-// });
+App.ApplicationAdapter = DS.LSAdapter.extend({
+  namespace: 'mytop7-emberjs'
+});
 
 App.CATEGORIES = [
   {id: '1', name: 'Spirituality'},
